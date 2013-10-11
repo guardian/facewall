@@ -14,7 +14,7 @@ define([], function() {'use strict';
 			
 			var cfg = {
 				context : 'interactive',
-				baseUrl : 'http://interactive.guim.co.uk/next-gen/environment/ng-interactive/2013/oct/greenpeace-2013-full-list',
+				baseUrl : 'http://interactive.guim.co.uk/next-gen/environment/ng-interactive/2013/oct/greenpeace',
 				paths : {
 					// the left side is the module ID,
 					// the right side is the path to
