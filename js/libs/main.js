@@ -208,7 +208,7 @@ define(['underscore', 'jquery', 'tabletop'], function (_, $, tabletop) {
 	function setup(el) {
 		
 		
-		var url =  "http://interactive.guim.co.uk/next-gen/environment/ng-interactive/2013/oct/greenpeace-2013-full-list/data/scaffolding.jsonp";
+		var url =  "http://interactive.guim.co.uk/next-gen/environment/ng-interactive/2013/oct/greenpeace/data/scaffolding.jsonp";
 		
 		 $.ajax({
                                        url: url,
@@ -228,7 +228,7 @@ define(['underscore', 'jquery', 'tabletop'], function (_, $, tabletop) {
         //$(el).html(htmlString);
         //loadData();
     //});
-		//$(el).load('http://interactive.guim.co.uk/next-gen/environment/ng-interactive/2013/oct/greenpeace-2013-full-list/data/scaffolding.html', function() {
+		//$(el).load('http://interactive.guim.co.uk/next-gen/environment/ng-interactive/2013/oct/greenpeace/data/scaffolding.html', function() {
 //loadData();
 //});
 		
