@@ -63,7 +63,7 @@ define(['underscore', 'jquery', 'tabletop'], function (_, $, tabletop) {
 		
 		var i, htmlString ="<ul class='FW_M100_2013_grid'>";
 			
-			for (i = 0; i < totalCells; i++) {
+			for (i = 0; i < dataset.length; i++) {
 				htmlString += "<li class='FW_M100_2013_cell-wrapper'><div class='FW_M100_2013_cell' id='FW_M100_2013_cell_" + i + "'><img class='FW_M100_2013_cell-image' src='" + dataset[i].thumburl + "' alt='' /><p class='FW_M100_2013_cell-num' >" + (i+1) + "</p></div></li>";
 			}
 			htmlString += "</ul>";
